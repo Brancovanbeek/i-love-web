@@ -19,3 +19,10 @@ Vandaag heb ik aan de hand van youtube tuturials geleerd hoe je HTML gebruikt. I
 -Hoelang heb ik de tijd om HTML en CSS te leren?
 
 De HTML for beginners tuturial van Dave Gray ga ik vandaag verder afkijken.
+
+
+5-9-2024
+
+Vandaag heb ik een youtube tuturial gekeken over CSS van web dev simplified.
+Ik heb gisteravond een call gehad met een software developer (bas vugts) en hebben we samen aan mijn visitekaartje gewerkt en uitleg gekregen over Html, css en javascript en dit heeft heel erg geholpen met het begrijpen van deze programma's.
+De kennis die ik gister van die jongen heb gekregen heb ik vandaag toegepast op mijn visitekaartje.
