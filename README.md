@@ -31,3 +31,7 @@ De kennis die ik gister van die jongen heb gekregen heb ik vandaag toegepast op 
 
 Vandaag heb ik geleerd hoe je een grid moet gebruiken en hoe je dat toepast in CSS.
 
+25-9-2024
+
+Vandaag heb ik aan de hand van de figma designs van de opdrachtgever een wireframe enzo geschetst. Ook ben ik begonnen met de header van de website te maken. 
+
