@@ -133,54 +133,56 @@
             <p>
                 <strong>Schrijf 3 dingen die je vandaag hebt gedaan.</strong><br>
                 Ik heb de laatste aanpassingen aan de website gemaakt, inclusief de verbeteringen die ik als issues heb ontvangen bijvoorbeeld interactieve elementen zoals alt-attributen voor afbeeldingen en een verbeterde headingstructuur. Samen met mijn team heb ik de feedback van de opdrachtgever besproken en gekeken wat goed en fout ging bij de vorige sprintreview met de opdrachtgever en wat beter kan bij de aankomende sprintreview.<br><br>
-                <strong>Beschrijf 2 verbeteringen die je in je Readme hebt gemaakt sinds vorige keer.</strong><br>
-                <br><br>
                 <strong>Schrijf 1 ding dat je anders aan gaat pakken tijdens de komende Sprint Review.</strong><br>
                 Ik ga deze keer vragen stellen over het uiterlijk van de website in plaats van alleen over de inhoud. Bijvoorbeeld over de kleurkeuze, lay-out, en hoe overzichtelijk het geheel eruitziet, zodat ik meer feedback krijg op het visuele aspect.<br><br>
             </p>
         </section>
         <section>
-            <h3>-2024</h3>
+            <h3>11-11-2024</h3>
             <p>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
+                <strong>Documenteer wat je vandaag hebt gedaan.</strong><br>
+                Ik heb een interface inventory samengesteld door screenshots te maken van alle gebruikte interface-elementen van de website die we hebben gebouwd en de aangeleverde Figma-ontwerpen. Deze verzameling heb ik georganiseerd in een gedeeld Figma-bestand, zodat alles goed te beheren is voor de komende stappen.<br><br>
+                <strong>Schrijf drie dingen op die je geleerd hebt.</strong><br>
+                Het belang van een huisstijl: Ik heb geleerd dat een huisstijl zorgt voor herkenbaarheid en vertrouwen bij gebruikers. Door visuele elementen consistent toe te passen, begrijpen gebruikers wat ze kunnen verwachten van een organisatie.
+                Het belang van een styleguide: Een styleguide is essentieel voor het correct toepassen van een huisstijl. Het helpt bij het documenteren van stijlen en zorgt ervoor dat ontwerpers en ontwikkelaars op één lijn zitten, wat consistentie in een website bevordert.
+                Interface inventory maken: Ik heb geleerd hoe je een interface inventory kunt maken. Dit houdt in dat je alle interface-elementen van een huisstijl inventariseert en documenteert, zoals typografie, knoppen en media. Het zorgt voor een compleet overzicht van alle visuele onderdelen die in de ontwerpen worden gebruikt.<br><br>
             </p>
         </section>
         <section>
-            <h3>-2024</h3>
+            <h3>13-11-2024</h3>
             <p>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
+                <strong>Documenteer wat je vandaag hebt gedaan.</strong><br>
+                Vandaag heb ik als team de gezamenlijke stylesheet voor de huisstijl gemaakt op basis van de styleguide. Eén teamlid heeft de repository geforkt, waarna alle teamleden zijn toegevoegd als 'Collaborators'. Iedereen heeft de repo gekloond naar zijn eigen computer, zodat ieder teamlid kan werken aan verschillende onderdelen van de huisstijl. In de stylesheet hebben wij basisstijlen opgenomen voor kleuren, typografie en formulier elementen. Samen hebben wij afgesproken welke CSS-classes en code conventies we gaan gebruiken. Ik gebruik de gezamenlijke stylesheet in mijn eigen project en pas de code aan, zodat ik de nieuwe classes gebruik. Mijn CSS zal kleiner worden, omdat een deel al in de gezamenlijke stylesheet staat.<br><br>
+                <strong>Schrijf drie dingen op die je geleerd hebt.</strong><br>
+                Samenwerken in GitHub: Ik heb geleerd hoe je als team samenwerkt in één repo met 'Collaborators' en GitHub Pages voor een gezamenlijke stylesheet.
+                Custom properties gebruiken: Door kleuren en font-groottes als variabelen in te stellen, wordt de code flexibeler en consistenter.
+                CSS classes en conventies afstemmen: Afspraken maken over CSS-benamingen verbetert de leesbaarheid en samenwerking.<br><br>
+                <strong>Wordt de heading nu paars? Of wordt de huisstijl uitgevoerd?</strong><br>
+                De kleur van de headings wordt niet paars. De reden hiervoor is dat de meeste CSS-bestanden (waaronder de gezamenlijke stijlen) vaak specifieker zijn dan een eenvoudige element selector, vooral als ze met classes werken. De classes in de gezamenlijke stylesheet zullen de kleur instellen volgens de prioriteit van hun CSS-specificiteit.<br><br>
+                <strong>Welke kleur krijgt de heading met twee classes? Krijgt het de kleur van de huisstijl of wordt de andere class uitgevoerd? Waarom krijgt de heading die kleur?</strong><br>
+                De kleur van de heading zal groen zijn, omdat de class .green een andere kleurwaarde (green) heeft en de hoogste prioriteit krijgt.<br><br>
+                <strong>Welke kleur hebben de headings nu? Probeer te beschrijven waarom de heading die kleur heeft.</strong><br>
+                De kleur van de heading wordt roze (pink). Waarom?: Als meerdere regels dezelfde specificiteit hebben, wordt de regel die laatst wordt gedefinieerd toegepast. Dit komt door de "last defined wins"-regel in CSS. De heading-medium selector in specificity.css heeft dezelfde specificiteit als de heading-medium selector in de gezamenlijke stijlen, maar de regel in specificity.css komt later (dichter bij de plaats waar de CSS wordt geladen of in de volgorde van de bestanden), dus die zal de kleur roze toepassen.<br><br>
+                <strong>Welke kleur krijgt de heading? De kleur van de id-selector of 'wint' de class uit de gezamenlijke stylesheet? Waarom is dat?</strong><br>
+                De kleur van de heading wordt geel (yellow). Waarom?: ID selectors hebben een hogere specificiteit dan class selectors. In dit geval heeft de selector #heading een hogere specificiteit dan de .heading-medium en .test class selectors, omdat ID selectors altijd meer gewicht hebben. Dus, de ID selector #heading wordt uitgevoerd, en de kleur wordt geel, ongeacht de kleurinstellingen van de classes in de gezamenlijke stijlen.<br><br>
             </p>
         </section>
         <section>
-            <h3>-2024</h3>
+            <h3>2-12-2024</h3>
             <p>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
+                <strong>Wat heb je vandaag gedaan?</strong><br>
+                vandaag heb ik een wireflow gemaakt van de inlogpage van de Oncollaboration website. Ik wil de inlogpage gebruiken om mee te oefenen met javascript. Ook heb ik belangrijke taken in mijn roadmap in github gezet. Verder heb ik me wat verder verdiept in javascript en alvast begonnen met de javascript cursus. <br><br>
+                <strong>Hoe ver ben je met de deeltaak JS Fundamentals? Wat wil je nog leren over JavaScript?</strong><br>
+                Ik heb de eerste twee taken van de cursus af en wil mezelf eraan houden dat ik elke dag een taak van de cursus ga afronden. Ik wil nog alles leren van javascript en ben daar al in de herfstvakantie meebegonnen.<br><br>
             </p>
         </section>
         <section>
-            <h3>-2024</h3>
+            <h3>4-12-2024</h3>
             <p>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
-                <strong></strong><br>
-                <br><br>
+                <strong>de Console, het 3 stappenplan, en van Comments naar Code. Schrijf hoe ver je bent gekomen met de 3e opdracht en wat moet je daar nog voor doen?</strong><br>
+                niet ver<br><br>
+                <strong>Schrijf welke lesje je aan het doen bent van de JS Fundamentals deeltaak. Wat heb je bij de vorige les geleerd?</strong><br>
+                ik ben nummer drie aan het doen<br><br>
             </p>
         </section>
         <section>

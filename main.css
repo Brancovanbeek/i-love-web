@@ -1,6 +1,11 @@
+@font-face {
+    font-family: "spacex";
+    src: url(../../../Downloads/Spacex-Regular.otf);
+}
+
 *{
     font-size: 1.2rem;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "spacex", Verdana, Geneva, Tahoma, sans-serif;
     list-style: none;
     color: whitesmoke;
     background-color: black;
@@ -16,3 +21,4 @@ h1, h3{
     flex-direction: row;
     justify-content: center;
 }
+

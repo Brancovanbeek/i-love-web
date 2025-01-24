@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset:has(:user-invalid) {
+          background: #faa;
+        }
+        </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+          <legend>Zoeken</legend>
+          <input type="number" min="1" max="10" required>
+          <button type="submit">Zoek!</button>
+        </fieldset>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
