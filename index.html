@@ -9,11 +9,29 @@
   </head>
   <body>
     <header>
-      <h1>ILOVEWEB</h1>
+        <a class="logo" href="">LEARNING JOURNAL</a>
+        <nav class="nav-bar">
+            <ul class="nav-bar-list">
+                <li>
+                    <a href="homepage.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html">Learning Journal</a>
+                </li>
+                <li>
+                    <a href="we-love-web.html">We♡Web</a>
+                </li>
+                <li>
+                    <a href="playground.html">Playground</a>
+                </li>
+            </ul>
+            <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path fill="#c09c1b" fill-rule="evenodd" d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"/>
+            </svg> 
+        </nav>
     </header>
     <main>
-        <h3>Semester 1</h3>
-        <section>
+        <section class="blog-post">
             <h3>23-09-2024</h3>
             <p>
                 <strong>Wat heb je vandaag gedaan?</strong><br>
@@ -31,7 +49,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="blog-post">
             <h3>25-09-2024</h3>
             <p>
                 <strong>Documenteer wat je vandaag hebt gedaan. Voeg links naar voorbeelden, bronnen en bijvoorbeeld issues met schetsen toe.</strong><br>
@@ -48,7 +66,7 @@
 
         </section>
 
-        <section>
+        <section class="blog-post">
             <h3>27-09-2024</h3>
             <p>
                 <strong>Documenteer wat je vandaag hebt gedaan. Voeg links naar voorbeelden, bronnen en bijvoorbeeld issues met schetsen toe.</strong><br>
@@ -58,7 +76,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="blog-post">
             <h3>30-09-2024</h3>
             <p>
                 <strong>Documenteer kort wat je vandaag hebt gedaan.</strong><br>
@@ -70,7 +88,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="blog-post">
             <h3>2-10-2024</h3>
             <p>
                 <strong>Beschrijf wat je vandaag hebt geleerd.</strong><br>
@@ -82,7 +100,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="blog-post">
             <h3>7-10-2024</h3>
             <p>
                 <strong>Beschrijf de 3 code conventies van vandaag in je Learning Journal.</strong><br>
@@ -93,7 +111,7 @@
                 Vanaf nu ga ik ervoor zorgen dat ik de CSS selectors in dezelfde volgorde als de HTML schrijf.<br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>9-10-2024</h3>
             <p>
                 <strong>Schrijf in je Learning Journal kort op wat je vandaag hebt gedaan.</strong><br>
@@ -101,7 +119,7 @@
                 <strong>Schrijf 3 leervragen over de stof die je vandaag hebt gekregen. (je hoeft de vraag niet te beantwoorden, alleen het bedenken van de vraag zorgt ervoor dat je de lesstof beter onthoudt)</strong><br>
                 Hoe bereid ik een goede demonstratie voor tijdens de Sprint Review?, wat zijn de belangrijkste onderdelen die in een readme moeten staan?, hoe kan ik de feedback van de opdrachtgever tijdens de Sprint Review het beste verwerken?<br><br>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>14-10-2024</h3>
             <p>
                 <strong>Schrijf (kort) op wat je vandaag hebt gedaan en geleerd.</strong><br>
@@ -110,7 +128,7 @@
                 <br>Ik moet nog een Lighthouse-test doen en een handmatige test en de uitslagen daarvan daarna in de Wiki zetten van de WCAG Audit repository.<br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>16-10-2024</h3>
             <p>
                 <strong>Schrijf (kort) op wat je vandaag hebt gedaan.</strong><br>
@@ -128,7 +146,7 @@
                     <u>Popups:</u> Ze vereisen extra aandacht voor toegankelijkheid, vooral voor toetsenbordgebruikers.<br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>23-10-2024</h3>
             <p>
                 <strong>Schrijf 3 dingen die je vandaag hebt gedaan.</strong><br>
@@ -137,7 +155,7 @@
                 Ik ga deze keer vragen stellen over het uiterlijk van de website in plaats van alleen over de inhoud. Bijvoorbeeld over de kleurkeuze, lay-out, en hoe overzichtelijk het geheel eruitziet, zodat ik meer feedback krijg op het visuele aspect.<br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>11-11-2024</h3>
             <p>
                 <strong>Documenteer wat je vandaag hebt gedaan.</strong><br>
@@ -148,7 +166,7 @@
                 Interface inventory maken: Ik heb geleerd hoe je een interface inventory kunt maken. Dit houdt in dat je alle interface-elementen van een huisstijl inventariseert en documenteert, zoals typografie, knoppen en media. Het zorgt voor een compleet overzicht van alle visuele onderdelen die in de ontwerpen worden gebruikt.<br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>13-11-2024</h3>
             <p>
                 <strong>Documenteer wat je vandaag hebt gedaan.</strong><br>
@@ -167,7 +185,7 @@
                 De kleur van de heading wordt geel (yellow). Waarom?: ID selectors hebben een hogere specificiteit dan class selectors. In dit geval heeft de selector #heading een hogere specificiteit dan de .heading-medium en .test class selectors, omdat ID selectors altijd meer gewicht hebben. Dus, de ID selector #heading wordt uitgevoerd, en de kleur wordt geel, ongeacht de kleurinstellingen van de classes in de gezamenlijke stijlen.<br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>2-12-2024</h3>
             <p>
                 <strong>Wat heb je vandaag gedaan?</strong><br>
@@ -176,7 +194,7 @@
                 Ik heb de eerste twee taken van de cursus af en wil mezelf eraan houden dat ik elke dag een taak van de cursus ga afronden. Ik wil nog alles leren van javascript en ben daar al in de herfstvakantie meebegonnen.<br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>4-12-2024</h3>
             <p>
                 <strong>de Console, het 3 stappenplan, en van Comments naar Code. Schrijf hoe ver je bent gekomen met de 3e opdracht en wat moet je daar nog voor doen?</strong><br>
@@ -185,7 +203,7 @@
                 ik ben nummer drie aan het doen<br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>-2024</h3>
             <p>
                 <strong></strong><br>
@@ -196,7 +214,7 @@
                 <br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>-2024</h3>
             <p>
                 <strong></strong><br>
@@ -207,7 +225,7 @@
                 <br><br>
             </p>
         </section>
-        <section>
+        <section class="blog-post">
             <h3>-2024</h3>
             <p>
                 <strong></strong><br>
