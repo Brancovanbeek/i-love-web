@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    justify-content: space-between;
+    max-width: 100%;
 }
 
 /* header */
@@ -290,4 +290,41 @@ p{
     background-color: rgb(255, 255, 255);
     border-radius: 14px;
     text-align: center;
+}
+
+.card-container{
+    width: 350px;
+    height: 500px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.card-container:hover > .rotated-card {
+    transform: rotateY(180deg);
+}
+
+.rotated-card{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;
+}
+
+.front, .back{
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50,50,50,0.25);
+    position: absolute;
+    backface-visibility: hidden ;
+}
+
+.front{
+    background-color: #00ff99;
+}
+
+.back{ 
+    background-color: #ff0095;
+    transform: rotateY(180deg);
 }
