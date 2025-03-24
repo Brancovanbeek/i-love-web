@@ -264,6 +264,9 @@ p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10em;
     text-align: center;
+    color: red;
+}
+@supports (background-clip: text) {
     background: linear-gradient(to right, rgb(14, 62, 237), red);
     background-clip: text;
     color: transparent;
