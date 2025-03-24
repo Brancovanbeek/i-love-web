@@ -267,9 +267,11 @@ p{
     color: red;
 }
 @supports (background-clip: text) {
-    background: linear-gradient(to right, rgb(14, 62, 237), red);
-    background-clip: text;
-    color: transparent;
+    h1{
+        background: linear-gradient(to right, rgb(14, 62, 237), red);
+        background-clip: text;
+        color: transparent;
+    }
 }
 
 /* wrapper */
